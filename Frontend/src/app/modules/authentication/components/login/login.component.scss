@@ -1,0 +1,13 @@
+.login-form {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  &-fields {
+    @extend .login-form;
+    width: 100%;
+  }
+}
+
+.login-form-fields {
+  width: 100%;
+}

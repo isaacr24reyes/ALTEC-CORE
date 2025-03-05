@@ -1,0 +1,42 @@
+<mat-card>
+  <mat-card-content>
+    <form [formGroup]="formGroup" (ngSubmit)="onSubmit()" class="login-form">
+      <div class="text-center">
+        <h4>{{'forms.login.title' | translate}}</h4>
+      </div>
+
+      <div class="container d-flex flex-column align-items-center login-form-fields">
+        <div class="d-flex flex-column">
+          <mat-form-field>
+            <input matInput placeholder="{{'forms.login.username' | translate}}"
+                   [formControl]="$any(formGroup).controls['username']" appOnlyLetters>
+          </mat-form-field>
+          <small *ngIf="formGroup.controls['username'].hasError('required') && formGroup.controls['username'].touched"
+                 class="text-danger">Usuario es requerido.</small>
+        </div>
+        <div class="d-flex flex-column">
+          <mat-form-field>
+            <input matInput type="password" placeholder="{{'forms.login.password' | translate}}"
+                   [formControl]="$any(formGroup).controls['password']">
+          </mat-form-field>
+          <small *ngIf="formGroup.controls['password'].hasError('required') && formGroup.controls['password'].touched"
+                 class="text-danger">Contraseña es requerido.</small>
+        </div>
+
+        <div class="d-flex justify-content-center mt-4">
+          <button mat-raised-button class="btn text-white" type="submit"
+                  [disabled]="!formGroup.valid" color="primary">
+            {{'forms.login.loginButton' | translate}}
+          </button>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-5">
+          <span>{{'forms.login.textRegister' | translate}}
+            <a [routerLink]="['/authentication/register']" class="text-info link">{{'forms.login.registerButton' | translate}}</a>
+          </span>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>
