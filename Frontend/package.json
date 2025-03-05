@@ -1,7 +1,7 @@
 {
-  "name": "base-angular",
+  "name": "ALTEC-CORE",
   "version": "1.0.0",
-  "author": "Roberth Loaiza R.",
+  "author": "Joshua Isaac Reyes Heredia",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

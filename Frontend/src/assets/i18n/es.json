@@ -1,7 +1,7 @@
 {
   "forms": {
     "login": {
-      "title": "Sessión",
+      "title": "Inicio",
       "username": "Usuario",
       "password": "Contraseña",
       "textRegister": "¿No tienes una cuenta?",

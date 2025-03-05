@@ -1,10 +1,13 @@
 .login-form {
-  border: 1px solid black;
   border-radius: 10px;
   padding: 20px;
+  background: #18181C;
   &-fields {
     @extend .login-form;
     width: 100%;
+  }
+  h1{
+    color: white;
   }
 }
 
