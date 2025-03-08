@@ -6,7 +6,7 @@
       "password": "Contraseña",
       "textRegister": "¿No tienes una cuenta?",
       "registerButton": "Registrarse",
-      "loginButton": "Iniciar sessión"
+      "loginButton": "Acceder"
     },
     "register": {
       "title": "Registro",

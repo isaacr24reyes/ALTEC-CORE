@@ -1,7 +1,7 @@
  <form [formGroup]="formGroup" (ngSubmit)="onSubmit()" class="login-form">
-      <div class="text-center">
-        <h1>{{'forms.login.title' | translate}}</h1>
-      </div>
+   <div class="text-center">
+     <img src="assets/images/LOGIN.png" alt="Logo" class="img-fluid" style="max-width: 300px;">
+   </div>
       <div class="container d-flex flex-column align-items-center login-form-fields">
         <div class="d-flex flex-column">
           <mat-form-field>
@@ -17,7 +17,7 @@
                    [formControl]="$any(formGroup).controls['password']">
           </mat-form-field>
           <small *ngIf="formGroup.controls['password'].hasError('required') && formGroup.controls['password'].touched"
-                 class="text-danger">Contraseña es requerido.</small>
+                 class="text-danger">Contraseña es requerida.</small>
         </div>
 
         <div class="d-flex justify-content-center mt-4">
@@ -29,9 +29,17 @@
 
       </div>
 
-      <div class="text-center mt-5">
-          <span>{{'forms.login.textRegister' | translate}}
-            <a [routerLink]="['/authentication/register']" class="text-info link">{{'forms.login.registerButton' | translate}}</a>
+   <div class="text-center mt-5">
+      <span class="text-white">
+        {{'forms.login.textRegister' | translate}}
+        <a [routerLink]="['/authentication/register']" class="text-info link">
+          {{'forms.login.registerButton' | translate}}
+        </a>
+      </span>
+    </div>
+       <div class="text-center mt-5">
+          <span class="text-white small-text">
+            Developed by <strong>SWIFT</strong> (2025).
           </span>
-      </div>
-    </form>
+       </div>
+ </form>

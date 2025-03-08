@@ -7,6 +7,7 @@ import {
 } from '@angular/forms';
 import {ApplicationBase} from "../../../utils/base/application.base";
 import { R_DASHBOARD } from "../../../../constants/route.constants";
+import Notiflix from 'notiflix';
 
 @Component({
   selector: 'app-login',
@@ -29,8 +30,12 @@ export class LoginComponent extends ApplicationBase implements OnInit {
   }
 
   public onSubmit(): void {
-    sessionStorage.setItem('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c')
-    this._router.navigate([`${R_DASHBOARD}`]);
+    Notiflix.Loading.circle('Autenticando...');
+    setTimeout(() => {
+      sessionStorage.setItem('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c');
+      this._router.navigate([`${R_DASHBOARD}`]);
+      Notiflix.Loading.remove();
+    }, 2000);
   }
 
 }
