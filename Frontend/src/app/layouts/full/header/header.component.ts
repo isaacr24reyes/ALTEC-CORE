@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {R_AUTHENTICATION, R_LOGIN} from "../../../constants/route.constants";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-header',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _router: Router) { }
 
   ngOnInit(): void {
   }
-
+  public logout(): void {
+    sessionStorage.clear();
+    this._router.navigate([`${R_AUTHENTICATION}/${R_LOGIN}`])
+  }
 }

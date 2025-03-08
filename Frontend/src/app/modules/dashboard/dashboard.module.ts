@@ -6,20 +6,24 @@ import {DemoComponent} from './components/demo/demo.component';
 import {DemoDialogComponent} from './components/demo/demo-dialog/demo-dialog.component';
 import {AppMaterialModule} from "../../app-material.module";
 import {AppTranslationLanguageModule} from "../../app-translation-language.module";
+import {HomeComponent} from "./components/home/home.component";
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
     declarations: [DashboardModule.COMPONENT],
-    imports: [
-        CommonModule,
-        AppMaterialModule,
-        AppTranslationLanguageModule,
-        RouterModule.forChild(DASHBOARD_ROUTES),
-    ]
+  imports: [
+    CommonModule,
+    AppMaterialModule,
+    AppTranslationLanguageModule,
+    RouterModule.forChild(DASHBOARD_ROUTES),
+    ReactiveFormsModule,
+  ]
 })
 export class DashboardModule {
 
   static COMPONENT = [
-    DemoComponent,
-    DemoDialogComponent
+    HomeComponent,
+    DemoDialogComponent,
+    DemoComponent
   ]
 }

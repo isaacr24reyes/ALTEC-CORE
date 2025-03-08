@@ -37,5 +37,4 @@ export class LoginComponent extends ApplicationBase implements OnInit {
       Notiflix.Loading.remove();
     }, 2000);
   }
-
 }
