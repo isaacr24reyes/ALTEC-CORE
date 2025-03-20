@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vVB+OTA6y2iueutPAQLSEaWnEEPN5LPjk61xVFk3iVM=",
+  "Source": "AltecSystem.Api",
+  "BasePath": "_content/AltecSystem.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

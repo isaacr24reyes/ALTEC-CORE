@@ -1,0 +1,16 @@
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\bin\Debug\net8.0\AltecSystem.Infrastructure.deps.json
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\bin\Debug\net8.0\AltecSystem.Infrastructure.dll
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\bin\Debug\net8.0\AltecSystem.Infrastructure.pdb
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\bin\Debug\net8.0\AltecSystem.Domain.dll
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\bin\Debug\net8.0\AltecSystem.Domain.pdb
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\obj\Debug\net8.0\AltecSystem.Infrastructure.csproj.AssemblyReference.cache
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\obj\Debug\net8.0\AltecSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\obj\Debug\net8.0\AltecSystem.Infrastructure.AssemblyInfoInputs.cache
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\obj\Debug\net8.0\AltecSystem.Infrastructure.AssemblyInfo.cs
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\obj\Debug\net8.0\AltecSystem.Infrastructure.csproj.CoreCompileInputs.cache
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\obj\Debug\net8.0\AltecSystem.Infrastructure.sourcelink.json
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\obj\Debug\net8.0\AltecSys.05DB3224.Up2Date
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\obj\Debug\net8.0\AltecSystem.Infrastructure.dll
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\obj\Debug\net8.0\refint\AltecSystem.Infrastructure.dll
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\obj\Debug\net8.0\AltecSystem.Infrastructure.pdb
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Infrastructure\obj\Debug\net8.0\ref\AltecSystem.Infrastructure.dll
