@@ -11,19 +11,6 @@
         "runtime": {
           "bin/placeholder/AltecSystem.Domain.dll": {}
         }
-      },
-      "AltecSystem.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "AltecSystem.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/AltecSystem.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AltecSystem.Infrastructure.dll": {}
-        }
       }
     }
   },
@@ -32,17 +19,11 @@
       "type": "project",
       "path": "../AltecSystem.Domain/AltecSystem.Domain.csproj",
       "msbuildProject": "../AltecSystem.Domain/AltecSystem.Domain.csproj"
-    },
-    "AltecSystem.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../AltecSystem.Infrastructure/AltecSystem.Infrastructure.csproj",
-      "msbuildProject": "../AltecSystem.Infrastructure/AltecSystem.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "AltecSystem.Domain >= 1.0.0",
-      "AltecSystem.Infrastructure >= 1.0.0"
+      "AltecSystem.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -81,9 +62,6 @@
           "projectReferences": {
             "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj": {
               "projectPath": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj"
-            },
-            "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Infrastructure\\AltecSystem.Infrastructure.csproj": {
-              "projectPath": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Infrastructure\\AltecSystem.Infrastructure.csproj"
             }
           }
         }

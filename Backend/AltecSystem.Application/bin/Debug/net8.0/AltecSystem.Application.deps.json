@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "AltecSystem.Application/1.0.0": {
         "dependencies": {
-          "AltecSystem.Domain": "1.0.0",
-          "AltecSystem.Infrastructure": "1.0.0"
+          "AltecSystem.Domain": "1.0.0"
         },
         "runtime": {
           "AltecSystem.Application.dll": {}
@@ -18,14 +17,6 @@
       "AltecSystem.Domain/1.0.0": {
         "runtime": {
           "AltecSystem.Domain.dll": {}
-        }
-      },
-      "AltecSystem.Infrastructure/1.0.0": {
-        "dependencies": {
-          "AltecSystem.Domain": "1.0.0"
-        },
-        "runtime": {
-          "AltecSystem.Infrastructure.dll": {}
         }
       }
     }
@@ -37,11 +28,6 @@
       "sha512": ""
     },
     "AltecSystem.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "AltecSystem.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

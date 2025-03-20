@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AltecSystem.Domain\AltecSystem.Domain.csproj" />
-    <ProjectReference Include="..\AltecSystem.Infrastructure\AltecSystem.Infrastructure.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AltecSystem.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae9c2b1355dd5fb74e4432ab481691b3764fbd67")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+928ca8822527c04363e5df56587b084809c7e00c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AltecSystem.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AltecSystem.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
