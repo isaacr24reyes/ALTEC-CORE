@@ -1,0 +1,21 @@
+# .NET
+bin/
+obj/
+**/*.user
+**/*.suo
+**/*.userosscache
+**/*.sln.docstates
+.vs/
+.vscode/
+.idea/
+
+# ASP.NET Core
+wwwroot/
+appsettings.Development.json
+appsettings.Production.json
+appsettings.json
+
+# User-specific files
+*.sqlite
+*.db
+*.log
