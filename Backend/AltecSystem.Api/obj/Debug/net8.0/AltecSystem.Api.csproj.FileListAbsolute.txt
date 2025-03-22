@@ -140,3 +140,6 @@ C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Api\obj\Debug\net8.0\refint\Altec
 C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Api\obj\Debug\net8.0\AltecSystem.Api.pdb
 C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Api\obj\Debug\net8.0\AltecSystem.Api.genruntimeconfig.cache
 C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Api\obj\Debug\net8.0\ref\AltecSystem.Api.dll
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Api\bin\Debug\net8.0\AltecSystem.Infrastructure.dll
+C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Api\bin\Debug\net8.0\AltecSystem.Infrastructure.pdb

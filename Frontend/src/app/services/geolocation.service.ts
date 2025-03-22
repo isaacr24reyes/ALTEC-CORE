@@ -10,15 +10,6 @@ export class GeolocationService extends ApplicationBaseService {
 
   private geolocation!: GeolocationModel;
 
-  constructor() {
-    super();
-    this.loadInitData();
-  }
-
-  private loadInitData(): void {
-    this.service = 'geolocation';
-  }
-
   getGeolocationApi(): Observable<GeolocationModel> {
     return this.genericSend('get');
   }

@@ -19,6 +19,6 @@ public class AuthController : ControllerBase
         if (token == null)
             return Unauthorized(new { message = "Credenciales incorrectas" });
 
-        return Ok(new { token });
+        return Ok(new {token});
     }
 }

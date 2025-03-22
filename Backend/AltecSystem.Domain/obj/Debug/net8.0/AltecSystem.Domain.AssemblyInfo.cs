@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AltecSystem.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c11c9d2eabb6415d4a5a67a8aec523b10bb003f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25b1d493c5174ab613feeeccccb04b54b27130b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("AltecSystem.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AltecSystem.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

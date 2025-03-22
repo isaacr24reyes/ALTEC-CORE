@@ -7,7 +7,7 @@ namespace AltecSystem.Infrastructure.Persistence
     {
         public AltecSystemDbContext(DbContextOptions<AltecSystemDbContext> options) : base(options) { }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<User> Login { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

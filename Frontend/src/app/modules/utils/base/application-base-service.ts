@@ -1,47 +1,28 @@
-import {HttpClient} from '@angular/common/http';
-import {InjectorInstance} from "../../../shared/shared.module";
-import {environment} from "../../../../environments/environment";
-import {Observable} from "rxjs";
+import { HttpClient } from '@angular/common/http';
+import {environmentQa} from "../../../../environments/environment.qa";
+
 
 export class ApplicationBaseService {
+  protected apiUrl: string;
 
-  private _transferenceObject: any;
-  private _route: string;
-  private _urlService: string;
-  private _service: string;
-  private _strategiesUrlService: any;
-  private _http: HttpClient;
-
-  constructor() {
-    this._http = InjectorInstance.get<HttpClient>(HttpClient);
-    this._route = '';
-    this._service = '';
-    this._urlService = '';
-    this.loadInitDataBaseService();
+  constructor(protected http: HttpClient) {
+    this.apiUrl = environmentQa.apiALTEC;
   }
 
-  private loadInitDataBaseService(): void {
-    this._strategiesUrlService = {
-      'profiles': () => this._urlService = environment.urlProfileMicroService,
-      'users': () => this._urlService = environment.urlUsersMicroService,
-      'geolocation': () => this._urlService = environment.urlGeolocationService
-    };
-  }
+  public genericSend(method: string, endpoint: string = '', body: any = null): any {
+    const url = `${this.apiUrl}/${endpoint}`;
 
-  protected set route(value: string) {
-    this._route = value;
-  }
-
-  protected set transferenceObject(value: any) {
-    this._transferenceObject = value;
-  }
-
-  protected set service(value: string) {
-    this._service = value;
-    this._strategiesUrlService[this._service]();
-  }
-
-  protected genericSend(method: string): Observable<any> {
-    return this._http.request(method, `${this._urlService}${this._service}/${this._route}`, this._transferenceObject);
+    switch (method.toLowerCase()) {
+      case 'post':
+        return this.http.post(url, body);
+      case 'get':
+        return this.http.get(url);
+      case 'put':
+        return this.http.put(url, body);
+      case 'delete':
+        return this.http.delete(url);
+      default:
+        throw new Error(`Método HTTP no soportado: ${method}`);
+    }
   }
 }

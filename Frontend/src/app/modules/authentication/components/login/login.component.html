@@ -22,7 +22,8 @@
 
         <div class="d-flex justify-content-center mt-4">
           <button mat-raised-button class="btn text-white" type="submit"
-                  [disabled]="!formGroup.valid" color="primary">
+                  [disabled]="!formGroup.valid"
+                  (click)="login()" color="primary">
             {{'forms.login.loginButton' | translate}}
           </button>
         </div>
