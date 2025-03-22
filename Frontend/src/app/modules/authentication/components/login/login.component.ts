@@ -55,7 +55,6 @@ export class LoginComponent extends ApplicationBase implements OnInit {
       complete: () => Notiflix.Loading.remove()
     });
   }
-
   onSubmit() {
 
   }
