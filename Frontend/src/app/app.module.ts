@@ -1,6 +1,5 @@
 import {ErrorHandler, NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {GlobalErrorHandler} from "./global-error-handler";
@@ -13,13 +12,15 @@ import {HeaderComponent} from "./layouts/full/header/header.component";
 import {FullComponent} from "./layouts/full/full.component";
 import { HTTP_INTERCEPTORS, provideHttpClient, withInterceptorsFromDi } from "@angular/common/http";
 import {AuthInterceptor} from "./core/interceptor/auth.interceptor";
+import {OnlyNumbersDirective} from "./shared/directive/only-numbers.directive";
 
 @NgModule({ declarations: [
         AppComponent,
         HeaderComponent,
         FullComponent,
-        AppBlankComponent
-    ],
+        AppBlankComponent,
+        OnlyNumbersDirective
+  ],
     bootstrap: [AppComponent], imports: [BrowserModule,
         AppRoutingModule,
         AppMaterialModule,

@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Api\\AltecSystem.Api.csproj": {}
+    "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Api\\AltecSystem.Api.csproj": {}
   },
   "projects": {
-    "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Api\\AltecSystem.Api.csproj": {
+    "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Api\\AltecSystem.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Api\\AltecSystem.Api.csproj",
+        "projectUniqueName": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Api\\AltecSystem.Api.csproj",
         "projectName": "AltecSystem.Api",
-        "projectPath": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Api\\AltecSystem.Api.csproj",
-        "packagesPath": "C:\\Users\\Isaac Reyes\\.nuget\\packages\\",
-        "outputPath": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Api\\obj\\",
+        "projectPath": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Api\\AltecSystem.Api.csproj",
+        "packagesPath": "C:\\Users\\ISAAC\\.nuget\\packages\\",
+        "outputPath": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Isaac Reyes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ISAAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,18 +22,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Application\\AltecSystem.Application.csproj": {
-                "projectPath": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Application\\AltecSystem.Application.csproj"
+              "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Application\\AltecSystem.Application.csproj": {
+                "projectPath": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Application\\AltecSystem.Application.csproj"
               },
-              "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Infrastructure\\AltecSystem.Infrastructure.csproj": {
-                "projectPath": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Infrastructure\\AltecSystem.Infrastructure.csproj"
+              "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Infrastructure\\AltecSystem.Infrastructure.csproj": {
+                "projectPath": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Infrastructure\\AltecSystem.Infrastructure.csproj"
               }
             }
           }
@@ -47,11 +41,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -100,26 +89,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Application\\AltecSystem.Application.csproj": {
+    "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Application\\AltecSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Application\\AltecSystem.Application.csproj",
+        "projectUniqueName": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Application\\AltecSystem.Application.csproj",
         "projectName": "AltecSystem.Application",
-        "projectPath": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Application\\AltecSystem.Application.csproj",
-        "packagesPath": "C:\\Users\\Isaac Reyes\\.nuget\\packages\\",
-        "outputPath": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Application\\obj\\",
+        "projectPath": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Application\\AltecSystem.Application.csproj",
+        "packagesPath": "C:\\Users\\ISAAC\\.nuget\\packages\\",
+        "outputPath": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Isaac Reyes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ISAAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -127,15 +111,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj": {
-                "projectPath": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj"
+              "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj": {
+                "projectPath": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj"
               }
             }
           }
@@ -144,11 +127,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -170,26 +148,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj": {
+    "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj",
+        "projectUniqueName": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj",
         "projectName": "AltecSystem.Domain",
-        "projectPath": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj",
-        "packagesPath": "C:\\Users\\Isaac Reyes\\.nuget\\packages\\",
-        "outputPath": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\obj\\",
+        "projectPath": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj",
+        "packagesPath": "C:\\Users\\ISAAC\\.nuget\\packages\\",
+        "outputPath": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Isaac Reyes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ISAAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -197,7 +170,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -210,11 +182,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -236,26 +203,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Infrastructure\\AltecSystem.Infrastructure.csproj": {
+    "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Infrastructure\\AltecSystem.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Infrastructure\\AltecSystem.Infrastructure.csproj",
+        "projectUniqueName": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Infrastructure\\AltecSystem.Infrastructure.csproj",
         "projectName": "AltecSystem.Infrastructure",
-        "projectPath": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Infrastructure\\AltecSystem.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Isaac Reyes\\.nuget\\packages\\",
-        "outputPath": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Infrastructure\\obj\\",
+        "projectPath": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Infrastructure\\AltecSystem.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ISAAC\\.nuget\\packages\\",
+        "outputPath": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Isaac Reyes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ISAAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -263,18 +225,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Application\\AltecSystem.Application.csproj": {
-                "projectPath": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Application\\AltecSystem.Application.csproj"
+              "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Application\\AltecSystem.Application.csproj": {
+                "projectPath": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Application\\AltecSystem.Application.csproj"
               },
-              "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj": {
-                "projectPath": "C:\\ALTEC-SYSTEM\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj"
+              "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj": {
+                "projectPath": "C:\\ALTEC-CORE\\ALTEC-CORE\\Backend\\AltecSystem.Domain\\AltecSystem.Domain.csproj"
               }
             }
           }
@@ -283,11 +244,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -327,7 +283,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

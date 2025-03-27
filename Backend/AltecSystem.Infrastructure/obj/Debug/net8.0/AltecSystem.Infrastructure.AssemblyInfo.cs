@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AltecSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25b1d493c5174ab613feeeccccb04b54b27130b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d3b7778a769337dfe899e776ecdb80790bd6cf1")]
 [assembly: System.Reflection.AssemblyProductAttribute("AltecSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AltecSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

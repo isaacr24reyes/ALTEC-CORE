@@ -10,3 +10,15 @@ C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Domain\obj\Debug\net8.0\AltecSyst
 C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Domain\obj\Debug\net8.0\refint\AltecSystem.Domain.dll
 C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Domain\obj\Debug\net8.0\AltecSystem.Domain.pdb
 C:\ALTEC-SYSTEM\ALTEC-CORE\Backend\AltecSystem.Domain\obj\Debug\net8.0\ref\AltecSystem.Domain.dll
+C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Domain\bin\Debug\net8.0\AltecSystem.Domain.deps.json
+C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Domain\bin\Debug\net8.0\AltecSystem.Domain.dll
+C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Domain\bin\Debug\net8.0\AltecSystem.Domain.pdb
+C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Domain\obj\Debug\net8.0\AltecSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Domain\obj\Debug\net8.0\AltecSystem.Domain.AssemblyInfoInputs.cache
+C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Domain\obj\Debug\net8.0\AltecSystem.Domain.AssemblyInfo.cs
+C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Domain\obj\Debug\net8.0\AltecSystem.Domain.csproj.CoreCompileInputs.cache
+C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Domain\obj\Debug\net8.0\AltecSystem.Domain.sourcelink.json
+C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Domain\obj\Debug\net8.0\AltecSystem.Domain.dll
+C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Domain\obj\Debug\net8.0\refint\AltecSystem.Domain.dll
+C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Domain\obj\Debug\net8.0\AltecSystem.Domain.pdb
+C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Domain\obj\Debug\net8.0\ref\AltecSystem.Domain.dll
