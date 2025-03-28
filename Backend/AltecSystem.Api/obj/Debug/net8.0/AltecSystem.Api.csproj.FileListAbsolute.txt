@@ -288,3 +288,5 @@ C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Api\obj\Debug\net8.0\refint\AltecSy
 C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Api\obj\Debug\net8.0\AltecSystem.Api.pdb
 C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Api\obj\Debug\net8.0\AltecSystem.Api.genruntimeconfig.cache
 C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Api\obj\Debug\net8.0\ref\AltecSystem.Api.dll
+C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Api\bin\Debug\net8.0\MediatR.dll
+C:\ALTEC-CORE\ALTEC-CORE\Backend\AltecSystem.Api\bin\Debug\net8.0\MediatR.Contracts.dll

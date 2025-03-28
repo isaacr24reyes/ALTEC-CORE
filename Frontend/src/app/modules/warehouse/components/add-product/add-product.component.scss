@@ -17,4 +17,19 @@
   .small-text {
     font-size: 0.75rem;
   }
+  .gray-input {
+    background-color: #18181C;
+    color: white;
+  }
+  .gray-input::placeholder {
+    color: #7b7979 !important;
+  }
+  .gray-input-select {
+    background-color: #18181C;
+    color: white !important;
+  }
+  .gray-input-select option {
+    color: white !important;
+    background-color: #18181C;
+  }
 }

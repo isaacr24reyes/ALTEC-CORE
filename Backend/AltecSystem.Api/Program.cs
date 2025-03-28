@@ -2,21 +2,27 @@ using AltecSystem.Application.Interfaces;
 using AltecSystem.Infrastructure.Services;
 using AltecSystem.Infrastructure.Repositories;
 using AltecSystem.Infrastructure.Persistence;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Registrar MediatR con el nuevo método
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
+
+// Configuración de CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngularApp", policy =>
     {
-        policy.WithOrigins("http://localhost:4200")
+        policy.WithOrigins("http://localhost:4200", "http://192.168.100.10:4200") // URL completa del frontend
             .AllowAnyMethod()
             .AllowAnyHeader();
     });
 });
 
+// Configuración de la base de datos
 builder.Services.AddDbContext<AltecSystemDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
@@ -33,6 +39,8 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 var app = builder.Build();
+
+// Usar CORS
 app.UseCors("AllowAngularApp");
 
 if (app.Environment.IsDevelopment())
@@ -44,4 +52,5 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
+
 app.Run();
