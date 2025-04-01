@@ -23,7 +23,6 @@ namespace AltecSystem.Application.Handlers.User
             return new LoginRequestDto
             {
                 Username = user.Username,
-                Name = user.Name
             };
         }
     }
